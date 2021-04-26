@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+		background-color:#CAC4C4;
+		text-color: #343434;
+	}
+	#wrapper {
+			width:1500px;
+			margin-left:auto;
+			margin-right:auto;
+			background-color:#5c80ff;
+			border:solid 5px #02CC1F;
+border-top-left-radius:12px;
+border-top-right-radius:12px;
+border-bottom-left-radius:12px;
+border-bottom-right-radius:12px;
+			}
+header {
+		height: 200px;
+		text-align: center;
+		line-height: 150px;
+		background-color:#5c80ff;
+		border:solid 3px #000000;
+		font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+			}
+nav {background-color: #dddddd;
+	position:sticky;
+	top: 0px;
+	padding-left: 20%;
+		}
+ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		width:100%;
+		}
+li {
+		float:left;
+		border-right: 1px solid #bbb;
+	}
+li a {
+		background-color: #dddddd;
+		display:block;
+	color:#000000;
+	text-align:center;
+	padding:14px 16px;
+	}
+li a:hover {
+		background-color:#F0E000;
+	}
+.active {
+		background-color: #fb1712;
+		color: #ffffff;
+	} 
+
+main {
+		width: 60%;
+		background-color:#F4EFEF;
+		margin-left: 20px;
+		margin-right: 20px;
+		border:solid 5px #000000;
+		padding-top: 2px;
+		padding-right: 2px;
+		padding-bottom: 0px;
+		padding-left: 2px;
+		float:left;
+	}
+
+aside {
+		width: 36%;
+		float: right;
+			background-color: #4F6AE1;
+			border:solid 3px #000000;
+			border-top-left-radius:12px;
+			border-top-right-radius:12px;
+			border-bottom-left-radius:12px;
+			border-bottom-right-radius:12px;
+	}
+footer {
+			clear: both;
+			height: 100px;
+			border: solid #000000;
+			padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #D1AAAA;
+	font-size: 0.8em;
+	text-align:center;
+			}
+h1 {
+	color:#000000;
+	font-style: normal;
+	font-weight: 400;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 2.5em;
+	text-align: center;
+	text-transform: uppercase;
+	}
+h2 {
+	color: #02cc1f;
+}
+h3 {
+	color: #000000;
+}
+
+
+a:link{
+	color:#094BFF;
+}
+a:visited{
+	color:#FF944C;
+}
+a:hover {
+	color:#D41518;
+	
+}
